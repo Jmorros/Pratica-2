@@ -17,6 +17,10 @@ void setup(){
   Serial.print("Diferents formats per al numero: "); 
   Serial.println(num); 
   
+  Serial.print("ASCII: ");
+  Serial.write(num);
+  Serial.println();
+  
   Serial.print("Decimal:");
   Serial.println(num,DEC);  //El numero estara escrit amb decimal
   
